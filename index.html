@@ -1,151 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guilherme Paranhos</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oxanium&family=Roboto+Mono&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="./img/code.png" />
-  <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    function abrirJanela(pagina, largura, altura) {
-    // Definindo centro da tela
-    var esquerda = (screen.width - largura)/2;
-    var topo = (screen.height - altura)/2;
-    // Abre a nova janela
-    minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
-    }
-    </script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Paranhos</title>
+  </head>
 
-<body>
-  <header>
-    <nav class="menu">
-      <ul class="container">
-        <li><a class="home" href="#"><i class="fas fa-home"></i></a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#experiencias">Experiências</a></li>
-        <li><a href="#projetos">Projetos Pessoais</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <div class="titulo">
-      <h1 class="site-title">Guilherme Paranhos</h1>
-      <h2 class="site-subtitle">Bacharel em Sistemas de Informação</h2>
-      <h2 class="site-subtitle">Jr. Front-End Developer | 27 Anos</h2>
-    </div>
-  </header>
-  <section class="sobre container" id="sobre">
-    <h2>Sobre</h2>
-    <div class="grid">
-      <figure>
-        <img class="img-sobre" src="./img/avatar.jpg" alt="Guilherme Paranhos">
-      </figure>
-    </div>
+  <body>
+    <header>
+      <h2> TESTE</h2>
+    </header>
 
-    <p>
-      Profissional de T.I formado em Tecnologia em Análise e Desenvolvimento de Sistemas e Bacharel em Sistemas de
-      Informação, e atualmente cursando pós-graduação em Engenharia de Software.
-    </p>
-    <p>
-      Possuo ampla experiência na área de tecnologia de informação com foco em infraestrutura de redes, administração de redes, suporte a usuários, e atualmente migrando para a área de desenvolvimento de softwares.
-    </p>
-    <p>
-      Apaixonado por tecnologia, e sempre buscando constantemente me aperfeiçoar. Atualmente faço cursos voltado para as aréas de front-end: HTML, CSS, JavaScript.
-    </p>
-    <p>
-      Ahh... Caso tenha alguma sugestão de melhoria, entre em contato por uma de minhas redes abaixo.
-    </p>
-  </section>
-  <section class="experiencias container" id="experiencias">
-    <!-- SEÇÃO EXPERIÊNCIAS -->
-    <h2>Experiências</h2>
-    <div class="timeline">
-      <div class="grid">
-      <ul>
-        <li>
-          <div class="content">
-            <h3> Militar de Informática - Exército Brasileiro </h3>
-            <p>Implantação e manutenção em servidores Linux e Windows, implantação de serviços (Microsoft Forefront TMG,
-              Microsoft Exchange Server), manutenção e administração SQL Server, atendimento ao usuário, manutenção em
-              computadores, manutenção e configuração de impressoras, rotinas de backup, implantação e manutenção em
-              softwares Open Source, tais como: OTRS Help Desk, Openfire, OCS Inventory, SurveyMonkey, VNC Server,
-              experiência em home-office, desenvolvimento de sites com Joomla.</p>
-          </div>
-          <div class="time">
-            <h4> Set 2017 - (Atual)</h4>
-          </div>
-        </li>
-        <li>
-          <div class="content">
-            <h3> Analista de TI - Viação Cruzeiro do Sul</h3>
-            <p>Manutenção de servidores, manutenção e administração SQL Server, atendimento ao usuário, manutenção em
-              computadores, manutenção e configuração de impressoras, rotinas de backup, atendimento em plantão,
-              implantação e administração do Microsoft Active Directory, experiência como usuário administrador com os
-              Softwares ERP’S SGE (Sistema de Gestão Empresarial), SSW Sistemas, Senior (Gestão de Pessoas), experiência
-              como usuário administrador com os Software Open Source Endian Firewall, OTRS Help Desk, Openfire,
-              desenvolvimento de site em Wordpress.</p>
-          </div>
-          <div class="time">
-            <h4> Jan 2014 - Ago 2017</h4>
-          </div>
-        </li>
-        <li>
-          <div class="content">
-            <h3> Auxiliar de TI - CTRCG</h3>
-            <p>Atendimento ao usuário, suporte via acesso remoto, manutenção e configuração de impressora, manutenção em
-              computadores, rotinas de backup, monitoramento CFTV, criação e configuração de e-mail.</p>
-          </div>
-          <div class="time">
-            <h4> Out 2013 - Jan 2014</h4>
-          </div>
-        </li>
-        <div style="clear: both;"></div>
-      </ul>
-    </div>
-    </div>
-  </section> <!-- FIMSEÇÃO EXPERIÊNCIAS -->
+  </body>
 
-  <section class="projetos container" id="projetos">
-    <!-- SEÇÃO PROJETOS PESSOAIS -->
-    <h2>Projetos Pessoais</h2>
-    <div class="grid">
-      <figure>
-        <img class="img-projetos" src="./img/projetos.png" alt="Projetos">
-      </figure>
-      <figure>
-       <img class="img-certificados" src="./img/certificados.png" alt="Certificados"> 
-      </figure>
-      <figure>
-        <img class="img-tecnologias" src="./img/tecnologias.png" alt="Tecnologias">
-      </figure>
-    </div>
-  </section> 
-  <div id="popup">
-    <a href="#" onclick="hidden();"><img src="fechar.png"/></a>
-    <img src="imagem.png"/>
-  </div>
-  <!-- FIM SEÇÃO PROJETOS -->
-  <section class="contato container" id="contato">
-    <!-- SEÇÃO CONTATO -->
-    <h2>Contato</h2>
-    <div class="grid icons">
-      <a target="_blank" href="https://github.com/guilhermeparanhos"> <i class="fab fa-github"></i>
-      </a>
-      <a target="_blank" href="https://twitter.com/guihparanhos"> <i class="fab fa-twitter"></i>
-      </a>
-      <a target="_blank" href="https://www.instagram.com/guiparanhos20/"> <i class="fab fa-instagram"></i>
-      </a>
-      <a target="_blank" href="www.linkedin.com/in/guilherme-paranhos-da-silva"> <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="mailto:guilhermeparanhos20@gmail.com"><i class="far fa-envelope"></i>
-      </a>
-    </div>
-  </section> <!-- FIM SEÇÃO CONTATO-->
-</body>
-<footer>
-  © 2020 Guilherme Paranhos. Todos os Direitos Reservados.
-</footer>
 </html>
